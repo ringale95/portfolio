@@ -5,6 +5,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home.tsx";
 import Dsa from "./pages/DSA.tsx";
+import ProjectPage from "./pages/ProjectPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/vite-react-router/dsa",
         element: <Dsa />,
+      },
+      {
+        path: "/vite-react-router/projects",
+        element: <ProjectPage />,
       },
     ],
   },

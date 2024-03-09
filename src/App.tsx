@@ -15,11 +15,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <nav>
-        <Link to="/vite-react-router/">Home</Link>
-        {" | "}
-        <Link to="/vite-react-router/dsa">DSA</Link>
-      </nav>
+
       <Outlet />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
