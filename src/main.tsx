@@ -3,25 +3,25 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from "./pages/Home.tsx";
-import Dsa from "./pages/DSA.tsx";
+import Home from "./pages/HomePage.tsx";
+import Dsa from "./pages/DSAPage.tsx";
 import ProjectPage from "./pages/ProjectPage.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/vite-react-router/",
+    path: "/portfolio/",
     element: <App />,
     children: [
       {
-        path: "/vite-react-router/",
+        path: "/portfolio/",
         element: <Home />,
       },
       {
-        path: "/vite-react-router/dsa",
+        path: "/portfolio/dsa",
         element: <Dsa />,
       },
       {
-        path: "/vite-react-router/projects",
+        path: "/portfolio/projects",
         element: <ProjectPage />,
       },
     ],
