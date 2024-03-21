@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/HomePage.tsx";
 import Dsa from "./pages/DSAPage.tsx";
 import ProjectPage from "./pages/ProjectPage.tsx";
+import NEUConnect from "./pages/NEUConnect.tsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/portfolio/projects",
         element: <ProjectPage />,
+      },
+      {
+        path: "/portfolio/neuconnect",
+        element: <NEUConnect />,
       },
     ],
   },
