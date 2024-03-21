@@ -12,7 +12,7 @@ export default function NEUConnect() {
           marginTop: "20px",
         }}
       >
-        <strong>⚠️</strong>Site under construction
+        <strong>⚠️</strong>Site under construction here
       </p>
     </div>
   );
